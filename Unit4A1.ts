@@ -10,11 +10,11 @@ let startValue: number = 0;
 let endValue: number = 0;
 
 // get starting value
-let startInput = prompt("Please enter a starting value (it must be an odd number): ");
+const startInput = prompt("Please enter a starting value (it must be an odd number): ");
 startValue = parseInt(startInput || "0");
 
 // get ending value
-let endInput = prompt("Please enter an ending value (it must be an odd number): ");
+const endInput = prompt("Please enter an ending value (it must be an odd number): ");
 endValue = parseInt(endInput || "0");
 
 // print even numbers
